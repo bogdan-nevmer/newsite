@@ -530,11 +530,12 @@ img {
     color:  #89cc99;
 }
 
-@media (max-width: 772px) {
+@media (max-width: 424px) {
     .container {
       grid-template-columns: 1fr; /* Single column layout */
     }
     h1 {
       font-size: 24px;
     }
+
   }
