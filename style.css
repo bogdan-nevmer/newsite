@@ -530,7 +530,7 @@ img {
     color:  #89cc99;
 }
 
-@media (max-width: 424px) {
+@media (max-width: 300px) {
     .container {
       grid-template-columns: 1fr; /* Single column layout */
     }
@@ -539,3 +539,4 @@ img {
     }
 
   }
+
