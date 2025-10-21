@@ -641,7 +641,10 @@ img {
     height: auto;
 
 }
-
+.about_image{
+    width:20%;
+    height: auto;
+}
 .footer__container
 {
 flex-direction: column;
