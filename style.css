@@ -530,14 +530,156 @@ img {
     color:  #89cc99;
 }
 
-@media (max-width: 800px) {
-    nav ul {
-        display: block;
-        text-align: center;
-    }
-    
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
+
+  
+  
+  @media only screen and (max-width: 480px) {
+.container{
+    padding: 0 15px;
+    max-width: 100%;
+}  
+.header-container{
+    flex-direction: column;
+    align-items: center;
+}
+.header-left,
+.header_right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav_header{
+    margin-top:10px;
+}
+.nav_list{
+    display: none;
+
+}
+.burger{
+ display: block;
+    cursor: pointer;
+    margin-left: auto;
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+
+.hero{
+    padding: 20px0;
+}
+
+.hero_content{
+    text-align: center;
+    padding: 10px;
+
+}
+
+.hero_title{
+    font-size: 1.8em;
+
+}
+.hero_descr{
+    font-size: 1em;
+
+}
+.container.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_image img{
+    width: 100%;
+    height: auto;
+
+}
+
+.catalog-list.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.catalog__item{
+    width: 100%;
+}
+
+.product--image{
+    width: 100%;
+    height: auto;
+}
+
+.product__content{
+    padding: 10px,5px;
+    text-align: center;
+}
+
+.btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+}
+.newbies-link{
+    width: 100%;
+    text-align: center;
+}
+
+.about_content,.about_image{
+    width: 100%;
+}
+.about_team{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.about_item{
+    width: 80px;
+    height: auto;
+
+}
+
+.footer__container
+{
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 15px;
+
+}
+
+.footer__left,.footer__right{
+    width: 100%;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-menu__col{
+    width: 100%;
+}
+
+.footer-phone{
+    margin-top: 10px;
+}
+
+.social{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
